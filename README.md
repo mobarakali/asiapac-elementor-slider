@@ -1,40 +1,90 @@
 # Asiapac Elementor Slider
 
-Initially I have to create this slider plugin to solve a problem with the Elementor slider widget. The Elementor slider widget does not support Image with Content, so I created this plugin to allow users to create sliders using Images and Content.
+Initially, I created this slider plugin to solve a problem with the Elementor slider widget. The default Elementor slider widget does not support layouts combining an image with content side by side. This plugin allows users to create such custom sliders using Elementor templates.
 
-I have a slider desing that contains an image on the left and content on the right. I first created the design in elementor and thent saved the desing as Elemento Template. After that, I created a shortcode to display the Elementor Template in the slider widget.
+For example, you can design a layout in Elementor with an image on the left and content on the right, save it as a template, and then use a shortcode to include it in a slick-powered slider.
 
-Thus this plugin allows users to create sliders with any custom design!
+Thus, this plugin enables you to create sliders with **any custom design**!
+
+---
 
 ## Features
 
-- Create sliders with any custom design using Elementor templates.
-- Use Elementor templates to create sliders with images and content.
-- Easy to use and customize.
+- Create sliders using Elementor templates.
+- Build sliders that combine images and content in one slide.
+- Easy to use via shortcode.
+- Slick Slider integration with autoplay, arrows, and dots.
+
+---
 
 ## Installation
 
 1. Download the plugin from the WordPress repository or upload it to your WordPress site.
 2. Activate the plugin from the WordPress admin panel.
-3. Create an Elementor template with your desired design.
-4. Use the shortcode `[asiapac_elementor_slider id="your_template_id"]` to display the slider in your posts or pages, replacing `your_template_id` with the ID of your Elementor template. Example: `[asiapac_elementor_slider ids="1371,1335"]`
-5. Customize the slider settings as needed.
+3. Create Elementor templates with your desired slide designs.
+4. Use the shortcode:
+
+   ```
+   [asiapac_elementor_slider ids="1371,1335"]
+   ```
+
+   Replace `1371,1335` with the actual IDs of your Elementor templates.
+
+---
 
 ## Usage
 
-To use the plugin, simply create an Elementor template with your desired design and use the shortcode provided above to display the slider in your posts or pages. You can customize the slider settings in the plugin settings page.
+To use the plugin:
+
+- Design your slides using Elementor.
+- Save each slide design as an Elementor **Template**.
+- Use the `[asiapac_elementor_slider]` shortcode with one or more template IDs.
+
+Example:
+
+```php
+[asiapac_elementor_slider ids="101,102,103"]
+```
+
+Each template will be rendered as a slide.
+
+---
 
 ## Contributing
 
-If you would like to contribute to this plugin, please fork the repository and submit a pull request. We welcome contributions from the community to improve the plugin and add new features.
+We welcome contributions from the community. If you'd like to improve this plugin:
+
+1. Fork the repository.
+2. Create a new branch for your feature or fix.
+3. Submit a pull request.
+
+---
+
+## Third-Party Libraries
+
+This plugin uses the following third-party library:
+
+- [Slick Slider](https://github.com/kenwheeler/slick) by Ken Wheeler – MIT License
+
+Slick Slider is included via CDN and is used to power the slider functionality.
+
+---
 
 ## License
 
-This plugin is licensed under the GPLv2 or later license. You can view the full license text in the LICENSE file in the root of the repository.
+This plugin is licensed under the **GPLv2 or later**.
+
+It also includes [Slick Slider](https://github.com/kenwheeler/slick), which is distributed under the **MIT License**.
+
+Please see the LICENSE file for full details.
+
+---
 
 ## Support
 
-If you have any questions or need support, please open an issue on the GitHub repository or contact us through the WordPress support forums. We are happy to help and will do our best to assist you with any issues you may encounter.
+For support, open an issue on the [GitHub repository](https://github.com/mobarakali/asiapac-elementor-slider)<!--  or ask in the WordPress support forums-->.
+
+---
 
 ## Changelog
 
