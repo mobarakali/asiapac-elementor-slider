@@ -1,15 +1,18 @@
 <?php
-./**
- * Plugin Name: Asiapac Elementor Slider
- * Plugin URI: https://github.com/mobarakali/Asiapac-Elementor-Slider
- * Description: Display Elementor templates as slider slides via shortcode.
- * Version: 1.0
- * Author: Mobaraqk Ali
- * Author URI: https://github.com/mobarakali/
- * License: GPL2
- * License URI: https://www.gnu.org/licenses/gpl-2.0.html
- * Text Domain: asiapac-elementor-slider
- */
+/**
+Plugin Name: Asiapac Elementor Slider
+Plugin URI: https://github.com/mobarakali/Asiapac-Elementor-Slider
+Description: Display Elementor templates as slider slides via shortcode.
+Version: 1.0
+Author: Mobaraqk Ali
+Author URI: https://github.com/mobarakali/
+License: GPL2
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: asiapac-elementor-slider
+
+This plugin uses the Slick Slider library (https://kenwheeler.github.io/slick/),
+which is MIT licensed. Copyright (c) Ken Wheeler.
+*/
 
 // Prevent direct access to the file
 
