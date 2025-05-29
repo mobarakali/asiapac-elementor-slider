@@ -32,8 +32,8 @@ function aes_enqueue_slider_assets() {
 
     // Init script
 wp_add_inline_script('slick-js', "
-    jQuery(document).ready(function($){
-        $('.asiapac-elementor-slider').slick({
+    jQuery(window).on('load', function(){
+        jQuery('.asiapac-elementor-slider').slick({
             dots: true,
             arrows: true,
             autoplay: true,
@@ -46,7 +46,15 @@ wp_add_inline_script('slick-js', "
 ");
     // Custom CSS for slider
     wp_add_inline_style('slick-css', "
+        .asiapac-elementor-slider {
+                visibility: hidden;
+            }
+        .asiapac-elementor-slider.slick-initialized {
+            visibility: visible;
+        }
+
         .asiapac-elementor-slider .slide {
+            min-height: 400px;
             width: 100%;
             padding: 0;
         }
