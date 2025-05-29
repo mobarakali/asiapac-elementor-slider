@@ -88,6 +88,16 @@ For support, open an issue on the [GitHub repository](https://github.com/mobarak
 
 ## Changelog
 
+### 1.0.1
+
+- Improved slider initialization timing to prevent layout shift (FOUC)
+- Added `visibility` control to hide slider until fully initialized
+- Refined arrow button appearance (icons only, removed text)
+- Cleaned up and optimized inline CSS for better UI consistency
+- Ensured compatibility with Elementor Pro templates via shortcode
+
 ### 1.0.0
 
-- Initial release of the Asiapac Elementor Slider plugin.
+- Initial release of the Asiapac Elementor Slider plugin
+- Basic Slick slider integration using shortcode
+- Supports Elementor Pro saved section templates
