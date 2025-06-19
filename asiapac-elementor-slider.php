@@ -4,7 +4,7 @@ Plugin Name: Asiapac Elementor Slider
 Plugin URI: https://github.com/mobarakali/Asiapac-Elementor-Slider
 Description: Display Elementor templates as slider slides via shortcode.
 Version: 1.0
-Author: Mobaraqk Ali
+Author: Mobarak Ali
 Author URI: https://github.com/mobarakali/
 License: GPL2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
